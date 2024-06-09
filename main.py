@@ -16,8 +16,6 @@ class Game:
         self.display = pg.display.set_mode([sett.WIDTH, sett.HEIGHT])
         self.clock = pg.time.Clock()
         self.background = sett.BACKGROUND
-        # self.menu_picture =
-        # self.menu_picture =
         self.loss_screen = sett.LOSS_SCREEN
         self.win_screen = sett.WIN_SCREEN
         self.size_increase = 0
